@@ -1,0 +1,82 @@
+.login-container{
+    padding-top: 20vh;
+}
+.login-container  form{
+    box-shadow: 0 5px 100px rgb(165 166 174 / 20%);
+    padding: 63px 30px 63px 30px;
+    border-radius: 15px;
+}
+
+body{
+    background: #ffffff !important;
+}
+
+.register{
+    text-align: center;
+    font-size: 13px;
+    color: #7f7d7d;
+}
+
+table{
+    text-align: center;
+    vertical-align: middle;
+    border: 0 transparent;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: rgba(99, 99, 99, 0.2) 0 2px 8px 0;
+}
+
+.sidebar-list{
+    height: 100%;
+    border-radius: 0;
+    background: #222429;
+    --bs-list-group-active-bg: #4242f2;
+    --bs-list-group-color: white;
+    --bs-list-group-bg: #222429;
+    --bs-list-group-border-width: 0;
+    --bs-list-group-action-hover-bg: transparent;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 10px;
+    --bs-list-group-action-hover-color:#4242f2;
+
+}
+
+.list-group-item{
+    width: 90%;
+    border-radius: 7px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+}
+
+.list-group-item.active{
+    border-radius:7px;
+}
+
+.page-link{
+    background-color: #4242f2 !important;
+    border-color: #4242f2 !important;
+}
+
+.modal{
+    --bs-modal-width: 70vw;
+    --bs-modal-padding: 2rem;
+}
+
+.modal-dialog{
+    margin: auto !important;
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.card{
+    background-color: #4242f2;
+    margin: 0 20px;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
